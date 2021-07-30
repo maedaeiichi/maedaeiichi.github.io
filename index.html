@@ -6,6 +6,15 @@
   </head>
   <body>
     <script type="module" src="https://unpkg.com/@google/model-viewer@0.3.1/dist/model-viewer.js"></script>
-    <model-viewer src="./first_model.glb" ar></model-viewer>
+    <model-viewer
+      src="./first_model.glb"
+      ar
+      style="width:800px;height:1000px;"                  
+      background-color="#70BCD1"
+      shadow-intensity="0.7"
+      camera-controls
+      interaction-prompt="auto"
+      auto-rotate
+    ></model-viewer>
   </body>
 </html>
